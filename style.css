@@ -18,10 +18,9 @@ body {
 .conteiner {
     max-width: 1000px;
     min-width: 300px;
-    margin: 0 auto;  
+    margin: 0 auto;
     display: flex;
-    
-  }
+}
 
 .logo {
     display: flex;
@@ -54,7 +53,7 @@ body {
     width: 40%;
     flex-direction: row-reverse;
     margin: 0px 0px 0px 20px;
-    
+
 }
 
 .foto-conteudo img {
@@ -64,8 +63,8 @@ body {
 
 .text-button {
     width: 33%;
- color: white;
- margin-left: 20px;
+    color: white;
+    margin-left: 20px;
 
 }
 
@@ -86,7 +85,7 @@ body {
 }
 
 .aprendizado {
-    
+
     color: blue;
     width: 100%;
     display: flex;
@@ -113,7 +112,7 @@ body {
     color: white;
     max-width: 1000px;
     min-width: 300px;
-    margin: 0 auto;  
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +142,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .last {
@@ -188,7 +187,6 @@ body {
     position: absolute;
     top: -61px;
     right: -100px;
-    
 }
 
 .last-button {
@@ -212,13 +210,14 @@ footer p {
 
 /* Responsividade */
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
     .conteiner {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .conteudo {
         display: flex;
         flex-direction: column;
@@ -227,11 +226,14 @@ footer p {
         margin: 0 auto;
         padding-top: 5px;
     }
+
     .aprendizado {
         display: flex;
         flex-direction: column;
     }
-    .foto-conteudo, .text-button {
+
+    .foto-conteudo,
+    .text-button {
         margin: 0 auto;
     }
 
@@ -243,10 +245,11 @@ footer p {
     .foto-conteudo {
         margin-bottom: 10px;
         margin-bottom: 10px;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
     }
+
     .text-button {
         width: 67%;
         display: flex;
@@ -262,7 +265,7 @@ footer p {
     .aprendizado {
         margin-top: 120px;
     }
-    
+
     .box-1 {
         margin: 0px 0px 10px 0px;
     }
@@ -270,7 +273,7 @@ footer p {
     .tex-button button {
         margin: 0 auto;
     }
-    
+
     .logo {
         margin: 0 auto;
     }
@@ -279,7 +282,3 @@ footer p {
         height: 160px;
     }
 }
-
-
-
-
