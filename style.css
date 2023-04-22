@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serifß;
+}
+
+header {
+    background: rgb(32, 32, 32);
+    height: 100px;
+}
+
+body {
+    background: rgb(32, 32, 32);
+}
+
+.conteiner {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;  
+    display: flex;
+    
+  }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.logo-azul {
+    margin: 10px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.logo-azul {
+    color: rgb(54, 123, 226);
+}
+
+.conteudo {
+    display: flex;
+    padding-top: 50px;
+}
+
+.foto-conteudo {
+    display: flex;
+    width: 40%;
+    flex-direction: row-reverse;
+    margin: 0px 0px 0px 20px;
+    
+}
+
+.foto-conteudo img {
+    width: 150px;
+    height: 200px;
+}
+
+.text-button {
+    width: 33%;
+ color: white;
+ margin-left: 20px;
+
+}
+
+.text-button h2 {
+    font-size: 24px;
+}
+
+.text-button button {
+    width: 174px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 43px 10px 0px 0px;
+    height: 35px;
+    background: rgb(54, 123, 226);
+    color: white;
+    font-size: 15px;
+}
+
+.aprendizado {
+    
+    color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box-1 {
+    background: rgb(36, 43, 67);
+    width: 151px;
+    height: 115px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.title-aprendizado {
+    margin-top: 130px;
+}
+
+.title-aprendizado h3 {
+    color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.box-1 h2 {
+    color: rgb(54, 123, 226);
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box-1 p {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.final {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.last {
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last h2 {
+    color: rgb(54, 123, 226);
+    margin: 12px;
+}
+
+.last p {
+    font-size: 10px;
+    color: white;
+}
+
+.last button {
+    color: white;
+    background: rgb(36, 43, 67);
+    border: none;
+    border-radius: 18px;
+    width: 122px;
+    height: 30px;
+    font-size: 11px;
+}
+
+.last-button button {
+    width: 174px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    margin: 43px 10px 0px 0px;
+    height: 35px;
+    background: rgb(54, 123, 226);
+    color: white;
+    font-size: 11px;
+    z-index: 999;
+    position: absolute;
+    top: -61px;
+    right: -100px;
+    
+}
+
+.last-button {
+    position: relative;
+}
+
+footer {
+    background: rgb(36, 43, 67);
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+footer p {
+    color: white;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 576px){
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+    .aprendizado {
+        display: flex;
+        flex-direction: column;
+    }
+    .foto-conteudo, .text-button {
+        margin: 0 auto;
+    }
+
+    .text-button h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .foto-conteudo {
+        margin-bottom: 10px;
+        margin-bottom: 10px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    }
+    .text-button {
+        width: 67%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .title-aprendizado {
+        margin-top: 10px;
+    }
+
+    .aprendizado {
+        margin-top: 120px;
+    }
+    
+    .box-1 {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .tex-button button {
+        margin: 0 auto;
+    }
+    
+    .logo {
+        margin: 0 auto;
+    }
+
+    footer {
+        height: 160px;
+    }
+}
+
+
+
+
